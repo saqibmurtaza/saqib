@@ -27,7 +27,7 @@ jobs:
           node-version: 10
       - name: install surge
         run: npm install --g surge
-      - name: Run surge
-        run: surge./Users/nnn/Documents/GitHub/saqib.surge.sh --token$({secrets.SURGE_TOKEN})
+      - name: Run Surge
+        run: Surge./saqibnewapp.surge.sh -- token ${{secrets.SURGE_TOKEN}}
         
          
