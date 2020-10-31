@@ -28,6 +28,6 @@ jobs:
       - name: install surge
         run: npm install --g surge
       - name: Run surge
-        run: surge.\saqib.surge.sh --token$({secrets.SURGE_TOKEN})
+        run: surge.\Users\nnn\Documents\GitHub\saqib.surge.sh --token$({secrets.SURGE_TOKEN})
         
          
